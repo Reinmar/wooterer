@@ -18,8 +18,7 @@ module.exports = {
 module.exports = {
 	// In minutes.
 	wateringHours: [
-		60,
-		61
+		0
 	],
 
 	// In minutes.
