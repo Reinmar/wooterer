@@ -3,7 +3,7 @@
 /* eslint-env node */
 /* global console */
 
-const isRPI = require( 'os' ).hostname() == 'raspberrypi.local';
+const isRPI = require( 'os' ).hostname() == 'raspberrypi';
 const rpio = require( 'rpio' );
 
 if ( isRPI ) {
