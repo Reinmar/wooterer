@@ -7,7 +7,7 @@ const isRPI = require( 'os' ).hostname() == 'raspberrypi.local';
 const rpio = require( 'rpio' );
 
 if ( isRPI ) {
-	rpio.open( 18, rpio.OUTPUT, rpio.LOW );
+	rpio.open( 12, rpio.OUTPUT, rpio.LOW );
 }
 
 module.exports = {
@@ -17,7 +17,7 @@ module.exports = {
 			return;
 		}
 
-		rpio.write( 18, rpio.HIGH );
+		rpio.write( 12, rpio.HIGH );
 	},
 
 	stop() {
@@ -26,6 +26,6 @@ module.exports = {
 			return;
 		}
 
-		rpio.write( 18, rpio.LOW );
+		rpio.write( 12, rpio.LOW );
 	}
 };
