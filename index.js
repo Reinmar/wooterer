@@ -40,7 +40,7 @@ function finishWatering() {
 
 	// We want to be safe here, so force push. Dev is on master anyway.
 	git.commit();
-	git.pushForce();
+	git.forcePush();
 }
 
 function minutesToMSeconds( minutes ) {
