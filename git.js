@@ -7,7 +7,7 @@ const exec = require( './exec' );
 
 module.exports = {
 	commit() {
-		exec( 'git add std.out std.err' );
+		exec( 'git add log.out log.err' );
 		exec( 'git commit -m "Status."' );
 	},
 
