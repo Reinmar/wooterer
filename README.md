@@ -35,5 +35,5 @@ nohup node index.js >> log.out 2>> log.err < /dev/null &
 Add the following line before `exit 0` in `etc/rc.local`:
 
 ```
-sudo -H -u pi bash -c "cd /home/pi/wooterer && node index.js >> log.out 2>> log.err &"
+sudo -H -u pi bash -c "cd /home/pi/wooterer && (node index.js >> log.out 2>> log.err)" &
 ```
