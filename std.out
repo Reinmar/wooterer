@@ -5,3 +5,8 @@
 [DEBUG] WOOTERER STOPED
 [2018-7-28 22:00:30] Finished watering.
 [2018-7-28 22:00:30] Scheduled watering at 2018-7-28 22:01:00.
+[2018-7-28 22:01:00] Started watering...
+[DEBUG] WOOTERER STARTED
+[DEBUG] WOOTERER STOPED
+[2018-7-28 22:01:30] Finished watering.
+[2018-7-28 22:01:30] Scheduled watering at 2018-7-29 22:00:00.
