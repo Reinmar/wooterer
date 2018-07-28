@@ -10,7 +10,7 @@ module.exports = {
 	],
 
 	// In minutes.
-	wateringPeriod: 3		// 2 minutes
+	wateringPeriod: 3		// 3 minutes
 };
 
 /* *
