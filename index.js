@@ -5,6 +5,11 @@
 
 const config = require( './config' );
 const wooterer = require( './wooterer' );
+const git = require( './git' );
+
+if ( git.getCurrentBranch() != 'status' ) {
+	throw new Error( 'Wooterer should be run on the `status` branch where it pushes its logs.' );
+}
 
 scheduleNext();
 
@@ -32,6 +37,10 @@ function finishWatering() {
 	log( 'Finished watering.' );
 
 	scheduleNext();
+
+	// We want to be safe here, so force push. Dev is on master anyway.
+	git.commit();
+	git.pushForce();
 }
 
 function minutesToMSeconds( minutes ) {

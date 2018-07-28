@@ -2,6 +2,14 @@
 
 DIY flower watering system. Cause I couldn't by a ready to use one...
 
+## Installing
+
+1. Clone this repo.
+2. `git co status` (because wooterer'll push there its logs)
+3. `git merge master`
+4. `npm i`
+5. Start me!
+
 ## Starting via SSH
 
 ```
