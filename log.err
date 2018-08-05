@@ -40,3 +40,9 @@ To github.com:Reinmar/wooterer.git
 To github.com:Reinmar/wooterer.git
    dd2d70a..a73f575  status -> status
 
+ssh_dispatch_run_fatal: Connection to 192.30.253.113 port 22: Connection timed out
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
