@@ -55,3 +55,8 @@ To github.com:Reinmar/wooterer.git
 To github.com:Reinmar/wooterer.git
    4b39d04..6fb3013  status -> status
 
+remote: fatal error in commit_refs        
+To github.com:Reinmar/wooterer.git
+ ! [remote rejected] status -> status (failure)
+error: failed to push some refs to 'git@github.com:Reinmar/wooterer.git'
+
