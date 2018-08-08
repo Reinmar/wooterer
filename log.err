@@ -63,3 +63,6 @@ error: failed to push some refs to 'git@github.com:Reinmar/wooterer.git'
 To github.com:Reinmar/wooterer.git
    6fb3013..61aef45  status -> status
 
+To github.com:Reinmar/wooterer.git
+   61aef45..94c3eb9  status -> status
+
