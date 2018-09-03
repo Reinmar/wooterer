@@ -216,3 +216,6 @@
 [2018-9-2 22:00:01] Started watering...
 [2018-9-2 22:03:01] Finished watering.
 [2018-9-2 22:03:01] Scheduled watering at 2018-9-3 08:00:00.
+[2018-9-3 08:00:00] Started watering...
+[2018-9-3 08:03:00] Finished watering.
+[2018-9-3 08:03:00] Scheduled watering at 2018-9-3 22:00:00.
