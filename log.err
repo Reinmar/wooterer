@@ -249,3 +249,24 @@ To github.com:Reinmar/wooterer.git
 To github.com:Reinmar/wooterer.git
    8131019..b79f8e8  status -> status
 
+To github.com:Reinmar/wooterer.git
+   b79f8e8..bb5ebfb  status -> status
+
+error: insufficient permission for adding an object to repository database .git/objects
+error: log.err: failed to insert into database
+error: unable to index file log.err
+fatal: updating files failed
+
+On branch status
+Your branch is up-to-date with 'origin/status'.
+Changes not staged for commit:
+	modified:   log.err
+	modified:   log.out
+
+Untracked files:
+	package-lock.json
+
+no changes added to commit
+
+Everything up-to-date
+
